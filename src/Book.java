@@ -10,6 +10,7 @@ public class Book {
         this.year = year;
     }
 
+    //геттеры для книги
     public String getNameAuthor() {
         return this.nameAuthor = nameAuthor;
 

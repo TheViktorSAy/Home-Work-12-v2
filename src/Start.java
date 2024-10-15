@@ -7,7 +7,6 @@ public class Start {
         book1.setYear(1800);
         System.out.println(book1.getNameAuthor() + book1.getNameBook() + book1.getYear());
 
-
         Author author2 = new Author("Глуховский ", "Дмитрий ");
         System.out.println(author2.getFirstName() + author2.getSecondName());
         Book book2 = new Book("Глуховский "," - Метро 2034 - ",2009);
