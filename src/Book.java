@@ -1,18 +1,18 @@
 public class Book {
-    private String nameAuthor;
+    private Author author;
     private String nameBook;
     private int year;
 
-    public Book(String nameAuthor, String nameBook, int year) {
+    public Book(Author author, String nameBook, int year) {
 
-        this.nameAuthor = nameAuthor;
+        this.author = author;
         this.nameBook = nameBook;
         this.year = year;
     }
 
     //геттеры для книги
-    public String getNameAuthor() {
-        return this.nameAuthor = nameAuthor;
+    public Author getAuthor() {
+        return this.author = author;
 
     }
 
